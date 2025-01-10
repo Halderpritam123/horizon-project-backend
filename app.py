@@ -344,7 +344,7 @@ def get_hotel_response(user_input):
 
 if __name__ == '__main__':
     # Get port from environment variable with a default value
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 8080))
     host = os.getenv('HOST', '0.0.0.0')
     debug = os.getenv('FLASK_ENV') == 'development'
     
